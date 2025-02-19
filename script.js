@@ -19,7 +19,7 @@ function reverseWords(sentence){
     reverseWords.reverses()
 }
 // console.log(reverseWords("Hello World"));
-// others on this question challenging me
+// others on this question challenginge
 
 
 
@@ -34,12 +34,27 @@ function countProjectVotes(votes) {
     }
  return countProjectVotes;
 }
+for (let vote of votes(){
+    if (vote.role === "admin") {
+        //             console.log(`Admin: ${user.name}`);
+        //         } else {
+        //             console.log(`User: ${user.name}`);
+        //         }
+        //     }
+}
+    //         if (user.role === "admin") {
+    //             console.log(`Admin: ${user.name}`);
+    //         } else {
+    //             console.log(`User: ${user.name}`);
+    //         }
+    //     }
 const votes = [ 
   { student: "Alice", project: "Project A" }, 
   { student: "Bob", project: "Project B" }, 
  
   { student: "Charlie", project: "Project A" } 
 ]; 
+countProjectVotes(votes);
 // b
 // function findWinningProject(votes) {
 return Math.max(votes);
@@ -52,7 +67,7 @@ function getUniqueProjects(votes) {
     return votes.filter(student === "Bob")
 }
 // console.log(getUniqueProjects("Charlie","Bob","Alice"));
-// d
+
 const findWinningProject(votes)=[];
 console.log(findWinningProject());
 
